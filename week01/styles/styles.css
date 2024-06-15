@@ -48,7 +48,9 @@ main img {
     height: auto;
 }
 
-p { padding: 0;}
+p { 
+    padding: 0;
+}
 
 
 footer {
