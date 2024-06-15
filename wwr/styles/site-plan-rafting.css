@@ -9,8 +9,8 @@ body {
 }
 
 :root {
-  --primary-color:#645986;
-  --secondary-color: #C17C74;
+  --primary-color: #C17C74;
+  --secondary-color: #645986;
   --accent1-color: #2C6E49;
   --accent2-color: #92c9b1;
 
