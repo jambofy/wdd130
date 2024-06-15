@@ -8,18 +8,18 @@ body {
 }
 
 :root {
-  --primary-color: #645986;
-  --secondary-color: #XXXXXX;
-  --accent1-color: #XXXXXX;
-  --accent2-color: #XXXXXX;
+  --primary-color:#645986;
+  --secondary-color: #C17C74;
+  --accent1-color: #2C6E49;
+  --accent2-color: #92c9b1;
 
   --heading-font: serif;
   --paragraph-font: 'Open Sans';
 
-  --nav-background-color: #XXXXXX;
-  --nav-link-color: #XXXXXX;
-  --nav-hover-link-color: #XXXXXX;
-  --nav-hover-background-color: #XXXXXX;
+  --nav-background-color: #645986;
+  --nav-link-color: #645986;
+  --nav-hover-link-color: #2c6e49;
+  --nav-hover-background-color: #c17c74;
 }
 
 
