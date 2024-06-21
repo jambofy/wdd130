@@ -24,9 +24,9 @@ body {
 }
 
 .hero-image {
+    display: block;
     width: 100%;
     height:auto;
-    display: block;
 }
 
 
@@ -48,7 +48,7 @@ body {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color:green;
+    background-color:rgb(132, 142, 151);
     color: white;
     padding: 20px;
     border-radius: 8px;
