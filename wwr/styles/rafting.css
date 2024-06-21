@@ -28,10 +28,7 @@ body {
 .hero-image {
     width: 100%;
     height: auto;
-    display: block;
-    
-    
-    
+    display: block;    
 }
 
 
@@ -62,7 +59,7 @@ body {
 .hero article img {
     float: right;
     margin-left: 20px;
-    width: 100px; /* Adjust the size as needed */
+    width: 100px; 
     height: auto;
 }
 
