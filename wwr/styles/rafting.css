@@ -110,6 +110,42 @@ section {
 }
 
 
+.gallery {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+
+.gallery .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery .image-item {
+    flex: 1 1 200px;
+    background-color: var(--background-color);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+
+
 h2 {
     font-size: 2rem;
     color: var(--secondary-color);
