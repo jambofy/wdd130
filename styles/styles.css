@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.grid {
+.gridClass{
     display: grid;
     align-items: center;
 }
