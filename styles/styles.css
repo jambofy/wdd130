@@ -55,13 +55,13 @@ nav a {
 h1 {
     color: steelblue;
     padding: 10px;
-  
+    border-bottom: hsl(256, 75%, 42%);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid hwb(214 15% 35%);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
