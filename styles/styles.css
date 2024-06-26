@@ -6,6 +6,14 @@
     align-items: center;
   }
 
+  footer {
+    margin-top: 15px;
+    border-top:1px solid #000;
+    text-align: center;
+    
+}
+
+
 .grid {
     display: grid;
     align-items: center;
@@ -90,12 +98,6 @@ p {
 }
 
 
-footer {
-    margin-top: 15px;
-    border-top:1px solid #000;
-    text-align: center;
-    
-}
 
 
 /* Class Selectors */
