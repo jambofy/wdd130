@@ -4,12 +4,12 @@
     margin: 0 auto;
     display: grid;
     align-items: center;
-}
+  }
 
-.gridClass{
+.grid {
     display: grid;
     align-items: center;
-}
+  }
   
   
 main {
@@ -48,6 +48,7 @@ h1 {
     color: steelblue;
     padding: 10px;
     border-bottom:2px red;
+    margin-bottom: 10px;
 }
 
 main img {
