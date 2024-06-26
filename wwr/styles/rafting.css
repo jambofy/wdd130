@@ -110,10 +110,32 @@ section {
 }
 
 
+
+.history {
+    padding: 40px 20px;
+    text-align: center; 
+}
+
+
+
+.history h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+.history .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
 .gallery {
     padding: 40px 20px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(75, 136, 50);
 }
 
 .gallery h2 {
@@ -143,8 +165,6 @@ section {
     height: auto;
     border-bottom: 3px solid var(--primary-color);
 }
-
-
 
 h2 {
     font-size: 2rem;
