@@ -15,10 +15,50 @@ body {
 }
 
 
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns:1fr 1fr 80px;
+	border-bottom: 3px solid #ccc;
+    justify-content: space-evenly;
+    background-color: palevioletred;
+
+}
+
+
+header img {
+    margin: 0.25rem  0.25rem  ;
+	width: 64px;
+	height: 64px;
+    padding: 10px;
+}
+
+
+nav {
+	text-align: right;
+}
+
+
+.navigation {
+	display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+    align-items: center;
+}
+
+
 .hero {
     position: relative;
     width: 900px;
-    height: 400px; /* Adjust the height as needed */
+    height: 400px; 
     border: #f39c12;
   
 }
@@ -82,7 +122,15 @@ footer {
     padding: 1rem;
     bottom: 0;
     width: 100%;
+    display: grid;
+    text-align: center;
+
+    background-color: #d87093;
+    border-radius: bold;
 }
 
+.social-icons{
+    align-content: center;
    
 
+}
