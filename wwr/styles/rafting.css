@@ -22,6 +22,7 @@ header {
 	border-bottom: 3px solid #ccc;
     justify-content: space-evenly;
     background-color: palevioletred;
+    border-radius: 15px;
 
 }
 
@@ -66,7 +67,8 @@ nav {
     position: relative;
     width: 100%;
     height:100%; 
-    border: #f39c12;
+    border-radius: 15px;
+ 
   
 }
 
@@ -74,6 +76,7 @@ nav {
     display: block;
     width: 100%;
     height:100%;
+    border-radius: 15px;
 }
 
 
@@ -92,28 +95,36 @@ nav {
 
 .hero article {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+    bottom: 150px;
+    left: 90px;
+    right: 90px;
     background-color:rgb(132, 142, 151);
     color: white;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 25px;
 }
 
 .hero article img {
     float: right;
     margin-left: 20px;
     width: 100px; 
-    height: auto;
+    height: 100px; 
 }
 
 .hero article p {
     margin: 0;
+   padding-top: 25px;
+
 }
+
+
 
 section {
     padding: 20px;
+    border-radius: 15px;
+    display: grid;
+    background-color: #d87093;
+    margin: 1rem auto;
    
 }
 
@@ -122,13 +133,19 @@ section {
 .history {
     padding: 40px 20px;
     text-align: center; 
+    border-radius: 15px;
+    background-color: steelblue;
+    margin: 1rem auto;
 }
 
 
 
 .history h2 {
+    display: flex;
     font-size: 2rem;
     margin-bottom: 20px;
+    position:absolute;
+    text-align: center;
 }
 
 
@@ -141,9 +158,11 @@ section {
 
 
 .gallery {
-    padding: 40px 20px;
+    padding: 40px 40px;
     text-align: center;
+    border-radius: 15px;
     background-color: rgb(75, 136, 50);
+    margin: 1rem auto;
 }
 
 .gallery h2 {
@@ -189,6 +208,7 @@ footer {
     display: grid;
     text-align: center;
     background-color: #d87093;
+    border-radius: 15px;
    
 }
 
