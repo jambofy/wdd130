@@ -3,7 +3,7 @@
 :root {
     --primary-color: #3498db;
     --secondary-color: #f39c12;
-    --text-color: black;
+    --text-color: #f39c12;
 }
 
 body {
@@ -85,7 +85,7 @@ nav {
     text-align: center;
     top: 20px;
     left: 20px;
-    color: white;
+    color:var(--text-color);
     font-size: 3rem;
     margin: 20px;
     padding: 10px;
