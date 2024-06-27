@@ -131,20 +131,17 @@ section {
 
 
 .history {
-    padding: 40px 20px;
+    padding:  20px;
     text-align: center; 
     border-radius: 15px;
-    background-color: steelblue;
     margin: 1rem auto;
 }
 
 
 
 .history h2 {
-    display: flex;
     font-size: 2rem;
     margin-bottom: 20px;
-    position:absolute;
     text-align: center;
 }
 
@@ -153,6 +150,7 @@ section {
 .history .content {
     max-width: 800px;
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -204,17 +202,28 @@ footer {
     color:black;
     padding: 1rem;
     bottom: 0;
-    width: 100%;
-    display: grid;
+    margin: 1rem auto;
+    display: flex;
     text-align: center;
     background-color: #d87093;
     border-radius: 15px;
+    border-right: auto;
+    justify-content: space-around;
    
+}
+
+
+footer p{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
 }
 
 .social-icons{
     justify-self: flex-end;
     align-content: center;
+    justify-content: space-around;
 
    
 }
