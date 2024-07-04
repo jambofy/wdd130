@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
       
-* {
-    margin: 0;
+*{
+    margin: 20px;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 body {
@@ -12,10 +12,12 @@ body {
     color: #333;
     background: #fff;
 }
-
+  
 header {
     margin: 0 auto;
-    width: 650px;
+    width: 550px;
+    text-align: center;
+  
 }
   
 h1 {
@@ -28,10 +30,11 @@ h1 {
 
 form {
     width: 650px;
+    text-align: center;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
+    border-radius: 20px;
     background-color: #eee;
     display: grid;
 }
