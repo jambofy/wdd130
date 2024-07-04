@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Page - Jambofy Rafting</title>
+    <meta name="description" content="Contact Jambofy Rafting for inquiries, reservations, and suggestions.">
+    <meta name="author" content="Nyasha Shepard Ushewokunze">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <div class="grid">
+        <header>
+            <img src="images/logo.png" alt="Website logo">
+            <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">AboutUs</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">ContactUs</a>
+            </nav> 
+        </header>
+    </div>
+
+    <main>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <h2>Company Information</h2>
+            <p>Address: 123 Rafting Lane, Adventure City, CO 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@raftingadventureco.com</p>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509572!2d144.96315771532143!3d-37.81410797975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f0c52b23%3A0x5045675218ce7e33!2z5rC05Y2A5pel5pys5rWo5Yy6!5e0!3m2!1szh-CN!2sau!4v1510922361541" width="800" height="450" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="employee column1">
+                <figure>
+                    <img src="images/employee1.jpg" alt="John Doe">
+                    <figcaption> <p>John Doe, Manager</p></figcaption>
+                </figure>
+            </div>
+
+            <div class="employee column2">
+                <figure>
+                    <img src="images/employee2.jpg" alt="Jane Smith">
+                    <figcaption><p>Jane Smith, Guide</p></figcaption>
+                </figure>
+            </div>
+
+            <div class="employee column3">
+                <figure>
+                    <img src="images/employee3.jpg" alt="Our Guides">
+                    <figcaption> <p>Our Guides</p></figcaption>
+                </figure>            
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-item">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-item">
+                    <label>Purpose of Message:</label>
+                    <div>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-item">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="grid">
+        <footer>
+            <p>&COPY;2024 Jambofy Rafting Nyasha Shepard Ushewokunze</p>
+            <nav class="social-icons">
+                <a href="facebook.com"><img src="images/Facebook.jpg" alt="Facebook"></a>
+                <a href="twitter.com"><img src="images/X.jpg" alt="Twitter"></a>
+                <a href="instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

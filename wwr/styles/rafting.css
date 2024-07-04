@@ -223,6 +223,76 @@ footer p{
     justify-self: flex-end;
     align-content: center;
     justify-content: space-around;
+}
 
+
+.contact-info {
+    /* styles for contact information section */
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #2950cf;
+}
+  
+.contact-info p {
+    /* styles for paragraphs within contact info */
+    margin-bottom: 10px;
+    
+}
+
+.map{
+
+   border-radius: 40px;
    
 }
+
+  
+.team h {
+    /* styles for meet the team section */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+
+}
+  
+
+.employee {
+    /* styles for each employee section */
+    display: flex; 
+    justify-content: space-between;
+    width: calc(100% - 20px); 
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  
+.contact-form {
+    /* styles for contact form section */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+  
+.form-item {
+    /* styles for each form field and label */
+    margin-bottom: 15px;
+    
+  }
+  
+.form-item label {
+    /* styles for form labels */
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+
+.contact-info p, .contact-form, .team{
+    background-color: #2950cf;
+
+  }
+  
