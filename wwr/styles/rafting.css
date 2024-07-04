@@ -262,13 +262,13 @@ footer p{
     /* styles for each employee section */
     display: flex; 
     justify-content: space-between;
+
     width: calc(100% - 20px); 
     margin: 10px;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
   }
-
   
 .contact-form {
     /* styles for contact form section */
