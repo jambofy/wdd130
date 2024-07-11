@@ -1,7 +1,7 @@
 
  header, .grid, footer {
     max-width: 840px;
-    margin: 5px auto;
+    margin-top: 15px;
     display: grid;
     align-items: center
   }
