@@ -61,7 +61,7 @@ nav {
 
 
 .hero {
-    display: grid;
+    display: flex;
     justify-content: space-around;
     justify-items: center;
     position: relative;
