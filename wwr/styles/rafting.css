@@ -84,8 +84,8 @@ nav {
 .hero h1 {
     position: absolute;
     text-align: center;
-    top: 20px;
-    left: 20px;
+    top: 200px;
+    left: 500px;
     color:var(--text-color);
     font-size: 3rem;
     margin: 20px;
