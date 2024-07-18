@@ -4,9 +4,11 @@
     margin-top: 30px;
     display: grid;
     align-items: center
+
+   
   }
 
-  footer {
+footer {
     margin-top: 15px;
     border-top:1px solid #000;
     text-align: center;
@@ -14,20 +16,16 @@
 }
 
 
-.grid {
-    display: grid;
-    align-items: center;
-  }
-  
-  
+
 main {
     grid-column: 2;
     grid-row: 1;
     margin: 1rem;
 }
 
+
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
