@@ -8,6 +8,8 @@
    
   }
 
+
+
 footer {
     margin-top: 15px;
     border-top:1px solid #000;
@@ -23,11 +25,19 @@ main {
     margin: 1rem;
 }
 
+.badge-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
 
+  
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
